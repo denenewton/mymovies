@@ -10,10 +10,10 @@ const {name, url} = movie[0]
 function htmlMovie() {
   document.querySelector('.container').innerHTML = `
         <div class="content-movie">
-            <h1>${name}</h1>
-            <iframe src="${url}" width="720" height="380" allow="autoplay" frameborder="0" scrolling="no" ></iframe>
+            <iframe id=video src="${url}" width="700"  height="380" allow="autoplay" frameborder="0" scrolling="no" ></iframe>
         </div>
     `;
+  document.querySelector('.title-movie').innerHTML = `${name}`;
 }
 
 

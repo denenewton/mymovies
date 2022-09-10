@@ -5,10 +5,11 @@
 }
 body {
   font-family: 'League Spartan', sans-serif;
-  padding: 2rem;
   color: #fff;
   background-color: #000;
+  padding-top: 9rem;
 }
+
 
 div.container-details {
   padding: 4rem 0;
@@ -53,4 +54,27 @@ div.container-details .details span.release-date {
 div.container-details img {
   width: 300px;
   border-radius: 1rem;
+}
+header{
+  display: flex; 
+  justify-content: center;
+  background-color:rgba(0, 0, 0, 0.45);
+  position: fixed;
+  top: 0;
+  z-index: 14;
+  width: 100%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  width: 1024px;
+  align-items: center;
+  padding: 0 2rem;
+  
+}
+input#search{
+  height: 1.7rem;
+  font-family: inherit;
+  padding-left: .5rem;
 }
